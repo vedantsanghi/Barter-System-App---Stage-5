@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+t Iimport React, { Component } from "react";
 import { StyleSheet, Text, View, Image } from "react-native";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import BookDonateScreen from "./BookDonateScreen";
@@ -14,7 +14,7 @@ export const TabNavigator = createBottomTabNavigator({
           style={{ width: 20, height: 20 }}
         />
       ),
-      tabBarLabel: "Donate Books"
+      tabBarLabel: "Home"
     },
   },
   Exchange: {
@@ -26,7 +26,7 @@ export const TabNavigator = createBottomTabNavigator({
           style={{ width: 20, height: 20 }}
         />
       ),
-      tabBarLabel: "Donate Books"
+      tabBarLabel: "Request Item"
     },
   },
 });
